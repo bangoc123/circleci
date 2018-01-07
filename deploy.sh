@@ -1,5 +1,5 @@
 echo "We are working"
 ssh-copy-id bangoc@ioextended.org
-yes
+yes "yes"
 echo "Done"
 
