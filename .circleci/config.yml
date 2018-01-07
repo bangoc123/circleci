@@ -37,4 +37,4 @@ jobs:
       - run: yarn test
       - deploy:
         name: webfaction
-        command: ssh -o "StrictHostKeyChecking no" bangoc@ioextended.org "touch demo.js"
+        command: bash deploy.sh
