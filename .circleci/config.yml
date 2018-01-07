@@ -36,5 +36,5 @@ jobs:
       # run tests!
       - run: yarn test
       - deploy:
-        name: webfaction
-        command: bash deploy.sh
+          name: webfaction
+          command: bash deploy.sh
